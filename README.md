@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site URL: [Click here to view](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/3-columns-previewcar-types-comparison-26lKTeOPl)
+- Live Site URL: [Click here to view](https://eshan01.github.io/3-column-preview/)
 
 ## My process
 
