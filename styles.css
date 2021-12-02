@@ -1,0 +1,119 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+}
+:root{
+    
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+
+--Transparent-white: hsla(0, 0%, 100%, 0.75); /* (paragraphs)*/
+--Very-light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    display:grid;
+    place-content: center;
+    background:var(--Very-light-gray);
+}
+@media (min-width:400px){
+    body{
+        display:grid;
+        place-content: center;
+        height:100vh;
+    }
+}
+img{
+    width: 60px;
+    height:auto;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color:var(--Transparent-white);
+    margin-bottom:50px;
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color:var(--Very-light-gray);
+    margin: 30px 0;
+}
+
+.Sedans{
+    background: var(--Bright-orange);
+}
+.SUVs{
+    background: var(--Dark-cyan);
+}
+.Luxury{
+    background: var(--Very-dark-cyan);
+}
+.all-wrap{
+    margin:50px 0;
+    display:flex;
+    flex-direction: column;
+    max-width:300px;
+}
+@media (min-width:400px){
+    .all-wrap{
+        display:flex;
+        flex-direction: row;
+        max-width:800px;
+        margin:0;
+    }
+}
+.div-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:45px;
+}
+@media (min-width:400px){
+    .div-wrap{
+        display: flex;
+        justify-content: space-between;
+        width:33.33%;
+        padding:28px;
+    }
+}
+.content{
+margin:10px auto;
+}
+@media (min-width:400px){
+    .content{
+        margin:20px auto;
+    }
+}
+button{
+    margin-right: 35%;
+    background: var(--Very-light-gray);
+    border-radius: 18px;
+    padding:10px 20px;
+    text-align: center;
+}
+button:hover{
+    color:var(--Transparent-white);
+    border:2px solid var(--Transparent-white);
+    cursor: pointer;
+}
+.btn1{
+    color: var(--Bright-orange);
+}
+.btn1:hover{
+    background: var(--Bright-orange);
+}
+.btn2{
+    color:var(--Dark-cyan);
+}
+.btn2:hover{
+    background: var(--Dark-cyan);
+}
+.btn3{
+    color:var(--Very-dark-cyan);
+}
+.btn3:hover{
+    background:var(--Very-dark-cyan);
+}
