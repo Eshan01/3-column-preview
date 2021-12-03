@@ -20,7 +20,7 @@ body{
     place-content: center;
     background:var(--Very-light-gray);
 }
-@media (min-width:400px){
+@media (min-width:500px){
     body{
         display:grid;
         place-content: center;
@@ -56,8 +56,10 @@ h2{
     display:flex;
     flex-direction: column;
     max-width:300px;
+    border-radius:10px;
+    overflow:hidden;
 }
-@media (min-width:400px){
+@media (min-width:500px){
     .all-wrap{
         display:flex;
         flex-direction: row;
@@ -71,7 +73,7 @@ h2{
     justify-content: space-between;
     padding:45px;
 }
-@media (min-width:400px){
+@media (min-width:500px){
     .div-wrap{
         display: flex;
         justify-content: space-between;
@@ -82,7 +84,7 @@ h2{
 .content{
 margin:10px auto;
 }
-@media (min-width:400px){
+@media (min-width:500px){
     .content{
         margin:20px auto;
     }
@@ -90,6 +92,7 @@ margin:10px auto;
 button{
     margin-right: 35%;
     background: var(--Very-light-gray);
+    border:unset;
     border-radius: 18px;
     padding:10px 20px;
     text-align: center;
@@ -101,18 +104,21 @@ button:hover{
 }
 .btn1{
     color: var(--Bright-orange);
+    border: 2px solid var(--Bright-orange);
 }
 .btn1:hover{
     background: var(--Bright-orange);
 }
 .btn2{
     color:var(--Dark-cyan);
+    border: 2px solid var(--Dark-cyan);
 }
 .btn2:hover{
     background: var(--Dark-cyan);
 }
 .btn3{
     color:var(--Very-dark-cyan);
+    border: 2px solid var(--Very-dark-cyan);
 }
 .btn3:hover{
     background:var(--Very-dark-cyan);
